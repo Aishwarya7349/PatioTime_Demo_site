@@ -1,0 +1,799 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     width: 100%;
+     border: 1px solid red;
+ }
+ 
+ #header {
+     width: 100%;
+     height: 500px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(louis-hansel-SQczzyGkmpU-unsplash.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     /* background: linear-gradient(rgba(140, 125, 125, 0.793), rgba(168, 148, 148, 0.826), rgba(189, 157, 157, 0.886));*/
+     margin-bottom: 20px;
+ }
+ 
+ #header-1 {
+     width: 100%;
+     display: none;
+ }
+ 
+ #navbar {
+     width: 100%;
+     display: none;
+ }
+ 
+ #header-logo {
+     width: 30%;
+     color: white;
+     margin-top: 30px;
+     height: 80px;
+     margin-left: 20px;
+ }
+ 
+ #header-logo img {
+     width: 100%;
+ }
+ 
+ #header-menu {
+     width: 10%;
+     color: white;
+     text-align: right;
+     margin-top: 30px;
+     margin-left: 80px;
+     margin-right: 20px;
+ }
+ 
+ #hero-1 {
+     width: 90%;
+     color: white;
+     text-align: center;
+     padding-bottom: 20px;
+     justify-content: center;
+     font-family: "Cormorant Garamond", serif;
+     font-size: 28px;
+ }
+ 
+ #chef {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     margin-top: 30px;
+     margin-bottom: 40px;
+ }
+ 
+ #chef-1 {
+     width: 90%;
+     height: 400px;
+     margin-bottom: 30px;
+ }
+ 
+ #chef-1 img {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ #chef-2 {
+     width: 90%;
+ }
+ 
+ #chef-2 h3 {
+     font-size: 22px;
+     color: #dd5903;
+     font-family: "Jost", sans-serif;
+     margin-bottom: 15px;
+ }
+ 
+ #chef-2 h2 {
+     font-size: 32px;
+     font-family: "Cormorant Garamond", serif;
+     margin-bottom: 15px;
+ }
+ 
+ #chef-2 p {
+     font-size: 16px;
+     margin-bottom: 15px;
+     font-family: "Jost", sans-serif;
+ }
+ 
+ #chef-2 a {
+     text-decoration: none;
+ }
+ 
+ #chef-2 a i {
+     font-size: 20px;
+     margin-right: 12px;
+     color: black;
+     margin-bottom: 15px;
+ }
+ 
+ #chef-2 a i:hover {
+     color: orange;
+ }
+ 
+ #chef-2 button {
+     font-size: 16px;
+     color: white;
+     background-color: #dd5903;
+     padding: 12px;
+     margin-top: 20px;
+ }
+ 
+ #quote {
+     width: 100%;
+     height: 500px;
+     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(edward-howell-R8HoXig87p8-unsplash.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+ }
+ 
+ #quote1 {
+     width: 90%;
+     text-align: center;
+ }
+ 
+ #quote1 p {
+     color: white;
+     margin-bottom: 15px;
+     padding-top: 100px;
+     font-size: 28px;
+     line-height: 35px;
+ }
+ 
+ #quote1 cite {
+     color: white;
+     margin-bottom: 15px;
+     font-size: 30px;
+     margin-top: 15px;
+ }
+ 
+ #chef-name {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     margin-top: 30px;
+     margin-bottom: 40px;
+ }
+ 
+ .chef-name1 {
+     width: 90%;
+ }
+ 
+ .chef-name11 {
+     width: 100%;
+     height: 340px;
+ }
+ 
+ .chef-name11 img {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .chef-name12 {
+     width: 100%;
+     margin-top: 20px;
+ }
+ 
+ .chef-name12 h4 {
+     font-size: 22px;
+     color: #dd5903;
+     font-family: "Jost", sans-serif;
+     margin-bottom: 15px;
+ }
+ 
+ .chef-name12 h2 {
+     font-size: 32px;
+     font-family: "Cormorant Garamond", serif;
+     margin-bottom: 15px;
+ }
+ 
+ .chef-name12 p {
+     font-size: 16px;
+     margin-bottom: 15px;
+     font-family: "Jost", sans-serif;
+ }
+ 
+ .chef-name12 a {
+     text-decoration: none;
+ }
+ 
+ .chef-name12 a i {
+     font-size: 20px;
+     margin-right: 12px;
+     color: black;
+     margin-bottom: 15px;
+ }
+ 
+ #chef-name12 a i:hover {
+     color: orange;
+ }
+ 
+ #video {
+     width: 100%;
+     margin-bottom: 40px;
+ }
+ 
+ #video-1 {
+     width: 80%;
+     height: 350px;
+     margin-left: 30px;
+ }
+ 
+ #video-1 img {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ #booktable {
+     background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.55)), url("alaksiej-carankievic-JBDYs80RTcs-unsplash\ \(1\).jpg") center/cover no-repeat;
+     color: white;
+     padding: 40px;
+     text-align: center;
+     width: 100%;
+ }
+ 
+ #booktable div {
+     width: 100%;
+ }
+ 
+ #booktable h3 {
+     font-family: "Jost", sans-serif;
+     font-size: 20px;
+     color: #e67e22;
+     margin-bottom: 5px;
+ }
+ 
+ #book-1 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-transform: uppercase;
+     font-size: 16px;
+ }
+ 
+ #book-1::before,
+ #book-1::after {
+     content: "";
+     flex: 1;
+     width: 2px;
+     /* line length */
+     height: 2px;
+     border-bottom: 1px solid #dd5903;
+     font-family: "Jost", sans-serif;
+ }
+ 
+ #book-1::before {
+     margin-right: 30px;
+ }
+ 
+ #book-1::after {
+     margin-left: 30px;
+ }
+ 
+ #booktable h2 {
+     font-family: "Cormorant Garamond", serif;
+     font-size: 38px;
+     margin-bottom: 20px;
+     text-decoration: none;
+ }
+ 
+ #booktable form {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin-bottom: 20px;
+ }
+ 
+ #booktable select,
+ #booktable input[type="date"],
+ #booktable input[type="time"] {
+     padding: 10px;
+     font-size: 16px;
+     border: none;
+     outline: none;
+     width: 200px;
+     border-bottom: 1px solid #fff;
+     background: transparent;
+     color: #fff;
+ }
+ 
+ #booktable select {
+     margin-bottom: 20px;
+ }
+ 
+ #booktable input[type="date"] {
+     margin-bottom: 20px;
+ }
+ 
+ #booktable input[type="submit"] {
+     background-color: #dd5903;
+     color: white;
+     padding: 12px 25px;
+     border: none;
+     font-size: 16px;
+     cursor: pointer;
+     margin-top: 10px;
+ }
+ 
+ #booktable p {
+     margin-top: 10px;
+ }
+ 
+ #lastsec-4 label {
+     font-size: 14px;
+     display: flex;
+     align-items: center;
+     margin-top: 8px;
+ }
+ 
+ #lastsec {
+     background: #0d0d0d;
+     color: #fff;
+     padding: 40px 20px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     font-family: "Jost", sans-serif;
+ }
+ 
+ #lastsec>div {
+     margin: 15px;
+ }
+ 
+ #lastsec h2,
+ #lastsec h3 {
+     margin-bottom: 15px;
+     font-weight: bold;
+ }
+ 
+ #lastsec p {
+     margin: 5px 0;
+ }
+ 
+ #lastsec-1 a i {
+     font-size: 20px;
+     margin-right: 12px;
+     color: #fff;
+ }
+ 
+ #lastsec-1 a i:hover {
+     color: orange;
+ }
+ 
+ #lastsec-1 a {
+     text-decoration: none;
+ }
+ 
+ #lastsec-2 h3 {
+     text-transform: uppercase;
+     margin-bottom: 15px;
+     font-weight: bold;
+ }
+ 
+ #lastsec-21 {
+     display: flex;
+     justify-content: space-between;
+     max-width: 350px;
+ }
+ 
+ #lastsec-21 div:first-child p {
+     text-align: left;
+     margin: 6px 0;
+ }
+ 
+ #lastsec-21 div:last-child p {
+     text-align: right;
+     margin: 6px 0;
+ }
+ 
+ #lastsec-3 a {
+     display: block;
+     color: #fff;
+     text-decoration: none;
+     margin: 5px 0;
+ }
+ 
+ #lastsec-3 a:hover,
+ #lastsec-3 a:focus {
+     color: orange;
+ }
+ 
+ #lastsec-4 input[type="email"] {
+     width: 70%;
+     border: none;
+     border-bottom: 1px solid #fff;
+     background: transparent;
+     color: #fff;
+     padding: 8px 0;
+ }
+ 
+ #lastsec-4 input[type="submit"] {
+     width: 20%;
+     margin-left: 10px;
+     color: white;
+     background-color: black;
+ }
+ 
+ #lastsec-4 input[type="email"]::placeholder {
+     color: #aaa;
+ }
+ 
+ #lastsec-4 label {
+     font-size: 14px;
+     display: flex;
+     align-items: center;
+     margin-top: 8px;
+ }
+ 
+ #lastsec-5 {
+     margin-top: 30px;
+     flex: 1 1 100%;
+     text-align: center;
+     border-top: 1px solid #222;
+     padding-top: 20px;
+ }
+ 
+ #lastsec-5 a {
+     margin: 0 15px;
+     color: #fff;
+     text-decoration: none;
+     transition: color 0.3s ease;
+ }
+ 
+ #lastsec-5 a:hover,
+ #lastsec-5 a:focus {
+     color: orange;
+ }
+ 
+ @media only screen and (min-width:768px) {
+     #header-logo {
+         width: 15%;
+         margin-right: 400px;
+     }
+     #header-logo img {
+         width: 100%;
+     }
+     #header-menu {
+         width: 10%;
+         font-size: 40px;
+         margin-left: 80px;
+         margin-right: 20px;
+     }
+     #hero-1 {
+         width: 80%;
+         font-size: 60px;
+     }
+     #chef {
+         width: 100%;
+         margin-top: 80px;
+     }
+     #chef-1 {
+         width: 40%;
+         height: 500px;
+         margin-bottom: 30px;
+     }
+     #chef-1 img {
+         width: 100%;
+         height: 100%;
+     }
+     #chef-2 {
+         width: 40%;
+     }
+     #chef-2 h3 {
+         font-size: 22px;
+         margin-bottom: 20px;
+     }
+     #chef-2 h2 {
+         font-size: 36px;
+         margin-bottom: 20px;
+     }
+     #chef-2 p {
+         font-size: 16px;
+         margin-bottom: 20px;
+     }
+     #chef-2 button {
+         font-size: 16px;
+         margin-left: 70px;
+         margin-top: 20px;
+     }
+     #quote {
+         width: 100%;
+         height: 500px;
+     }
+     #quote1 {
+         width: 90%;
+         text-align: center;
+     }
+     #quote1 p {
+         color: white;
+         margin-bottom: 15px;
+         padding-top: 200px;
+         padding-left: 50px;
+     }
+     #quote1 cite {
+         padding-left: 40px;
+     }
+     #chef-name {
+         width: 100%;
+         margin-top: 60px;
+         margin-bottom: 40px;
+     }
+     .chef-name1 {
+         width: 28%;
+     }
+     .chef-name11 {
+         width: 100%;
+         height: 340px;
+     }
+     .chef-name11 img {
+         width: 100%;
+         height: 100%;
+     }
+     .chef-name12 {
+         width: 100%;
+         margin-top: 20px;
+     }
+     .chef-name12 h4 {
+         font-size: 22px;
+         margin-bottom: 15px;
+     }
+     .chef-name12 h2 {
+         font-size: 32px;
+         margin-bottom: 15px;
+     }
+     .chef-name12 p {
+         font-size: 16px;
+         margin-bottom: 15px;
+     }
+     .chef-name12 a {
+         text-decoration: none;
+     }
+     .chef-name12 a i {
+         font-size: 20px;
+         margin-right: 12px;
+         margin-bottom: 15px;
+     }
+     #video {
+         width: 100%;
+         margin-bottom: 70px;
+     }
+     #video-1 {
+         width: 80%;
+         height: 350px;
+         margin-left: 80px;
+     }
+     #video-1 img {
+         width: 100%;
+         height: 100%;
+     }
+     #booktable select {
+         width: 40%;
+         margin-right: 10px;
+     }
+     #booktable input[type="date"] {
+         width: 40%;
+         margin-left: 10px;
+     }
+     #booktable input[type="time"] {
+         width: 40%;
+         margin-right: 10px;
+     }
+     #booktable input[type="submit"] {
+         width: 40%;
+         margin-left: 10px;
+     }
+     #booktable p {
+         margin-right: 400px;
+     }
+     #lastsec {
+         width: 100%;
+     }
+     #lastsec-1 {
+         width: 45%;
+     }
+     #lastsec-2 {
+         width: 45%;
+     }
+     #lastsec-3 {
+         width: 45%;
+     }
+     #lastsec-4 {
+         width: 45%;
+     }
+     #lastsec-5 {
+         width: 100%;
+     }
+     #lastsec-5 p {
+         width: 100%;
+         margin-bottom: 10px;
+     }
+ }
+ 
+ @media only screen and (min-width:1024px) {
+     #header {
+         width: 100%;
+     }
+     #header-1 {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         width: 100%;
+         margin-top: 30px;
+     }
+     #header-11 a {
+         color: white;
+         text-decoration: none;
+         width: 50%;
+         margin-top: 10px;
+         margin-right: 200px;
+     }
+     #header-12 a {
+         color: white;
+         text-decoration: none;
+         width: 20%;
+         margin-left: 20px;
+     }
+     #header-13 a {
+         color: white;
+         text-decoration: none;
+         width: 20%;
+     }
+     #header a:hover {
+         color: #dd5903;
+     }
+     #header-logo {
+         width: 30%;
+         margin-right: 0px;
+     }
+     #header-logo img {
+         width: 50%;
+         padding-left: 40px;
+     }
+     #navbar {
+         display: inline;
+         color: white;
+         text-decoration: none;
+         width: 60%;
+         margin-left: 0px;
+         margin-top: 50px;
+         text-align: right;
+     }
+     #navbar nav a {
+         color: white;
+         text-decoration: none;
+         margin-right: 10px;
+         font-size: 20px;
+     }
+     #header-menu {
+         display: none;
+     }
+     #hero-1 {
+         width: 80%;
+         font-size: 50px;
+         margin-bottom: 120px;
+     }
+     #chef {
+         width: 100%;
+         margin-top: 80px;
+     }
+     #chef-1 {
+         width: 35%;
+         height: 750px;
+         margin-bottom: 30px;
+     }
+     #chef-1 img {
+         width: 100%;
+         height: 100%;
+     }
+     #chef-2 {
+         width: 35%;
+         margin-top: 120px;
+     }
+     #chef-2 h3 {
+         font-size: 22px;
+         margin-bottom: 20px;
+     }
+     #chef-2 h2 {
+         font-size: 50px;
+         margin-bottom: 20px;
+     }
+     #chef-2 p {
+         font-size: 18px;
+         margin-bottom: 20px;
+         line-height: 30px;
+     }
+     #chef-2 button {
+         font-size: 16px;
+         margin-left: 200px;
+         margin-top: 20px;
+     }
+     #quote {
+         width: 100%;
+         height: 500px;
+     }
+     #quote1 {
+         width: 80%;
+         text-align: center;
+     }
+     #quote1 p {
+         margin-bottom: 15px;
+         padding-top: 200px;
+         padding-left: 200px;
+         margin-left: 150px;
+     }
+     #quote1 cite {
+         margin-top: 80px;
+         padding-left: 300px;
+     }
+     #video {
+         width: 100%;
+         margin-bottom: 70px;
+     }
+     #video-1 {
+         width: 80%;
+         height: 580px;
+         margin-left: 140px;
+     }
+     #video-1 img {
+         width: 100%;
+         height: 100%;
+     }
+     #booktable select {
+         width: 20%;
+         margin-right: 10px;
+     }
+     #booktable input[type="date"] {
+         width: 20%;
+         margin-right: 10px;
+     }
+     #booktable input[type="time"] {
+         width: 20%;
+         margin-right: 10px;
+         margin-bottom: 20px;
+     }
+     #booktable input[type="submit"] {
+         width: 20%;
+         margin-right: 10px;
+     }
+     #booktable p {
+         margin-right: 1000px;
+     }
+     #lastsec {
+         width: 100%;
+     }
+     #lastsec-1 {
+         width: 20%;
+     }
+     #lastsec-2 {
+         width: 20%;
+     }
+     #lastsec-3 {
+         width: 20%;
+     }
+     #lastsec-4 {
+         width: 20%;
+     }
+     #lastsec-5 {
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+     }
+     #lastsec-5 p {
+         width: 60%;
+         text-align: left;
+     }
+     #lastsec-5 a {
+         width: 10%;
+     }
+ }
